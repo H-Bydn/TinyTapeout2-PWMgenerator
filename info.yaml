@@ -26,10 +26,10 @@ documentation:
   picture:      ""      # relative path to a picture in your repository
   inputs:               # a description of what the inputs do
     - clock
-    - duty_cycle_select_0
-    - duty_cycle_select_1
-    - duty_cycle_select_2
-    - duty_cycle_select_3
+    - duty-cycle-select-0
+    - duty-cycle-select-1
+    - duty-cycle-select-2
+    - duty-cycle-select-3
     - none
     - none
     - none
