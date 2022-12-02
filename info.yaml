@@ -25,7 +25,7 @@ documentation:
   clock_hz:     6000Hz       # Clock frequency in Hz (if required) we are expecting max clock frequency to be ~6khz. Provided on input 0.
   picture:      ""      # relative path to a picture in your repository
   inputs:               # a description of what the inputs do
-    - clock
+    - Clock
     - duty-cycle-select-0
     - duty-cycle-select-1
     - duty-cycle-select-2
