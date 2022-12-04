@@ -15,7 +15,7 @@ project:
 # This info will be automatically collected and used to make a datasheet for the chip.
 documentation: 
   author:       "Hassan Baydoun, Razan Thebian"      # Your name
-  discord:      ""      # Your discord handle - make sure to include the # part as well
+  discord:      "bydn#1103"      # Your discord handle - make sure to include the # part as well
   title:        "PWM Generator"      # Project title
   description:  "It is a PWM Generator with selectable duty cycle 0-10-20-..-100% with clock divider built in"      # Short description of what your project does
   how_it_works: "The design uses an external clock and 4 bits to select the duty cycle. It outputs a PWM signal with 1/10 the frequency of the clock supplied and a duty cycle depending on the 4 selected bits."      # Longer description of how the project works
