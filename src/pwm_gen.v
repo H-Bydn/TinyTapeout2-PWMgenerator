@@ -94,4 +94,5 @@ module pwm_gen
           default : w_high_cycles = 10;
         endcase
     end
+  end
 endmodule
