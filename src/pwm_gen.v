@@ -14,10 +14,11 @@ module pwm_gen
   always@(posedge i_clk) begin
     if (i_rst == 1'b1)
       r_counter = 0;
-    else
+    else begin
       r_counter = r_counter + 1;
       if (r_counter == w_max_cycles)
         r_counter = 0;
+    end
   end
 
   // set maximum cycles for corresponding PWM frequency.
